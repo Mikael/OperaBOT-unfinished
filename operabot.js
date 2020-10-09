@@ -4,7 +4,7 @@ const fs = require("fs");
 const config = require("./config.json");
 bot.commands = new Discord.Collection();
 const mongoose = require('mongoose');
-mongoose.connect(`mongodb+srv://operaBOT:5B5pRfZlh8D@cluster0-hola8.mongodb.net/operaBOT?retryWrites=true&w=majority`, {
+mongoose.connect(`mongoose url`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
